@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.caja{
+    width: 100px;
+    height: 100px;
+    margin: 30px;
+}
+.azul{
+    background-color: blue;
+    position: relative;
+    top: 20px;
+    z-index: 3;
+}
+.roja{
+    background-color: red;
+    position: relative;
+    bottom: 20px;
+    right: 40px;
+    z-index: 5;
+}
+.amarilla{
+    background-color: yellow;
+}
+.transparente{
+    height: 1500px;
+    background-color: aliceblue;
+}
+.menu{
+    background-color: black;
+    height: 50px;
+    padding: 5px;
+    list-style: none;
+    text-align: center;
+}
+.menu li{
+    display: inline-block;
+    text-align: center;
+
+}
+.menu li a{
+    padding: 10px;
+    margin: 10px;
+    color: lime;
+    text-decoration: none;
+}
+.menu li a:hover{
+    color: black;
+    background-color: lime;
+    border-radius: 20%;
+}
+.menu li:hover ul{
+    display: block;
+}
